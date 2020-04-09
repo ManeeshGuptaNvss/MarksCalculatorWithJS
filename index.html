@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Using Js</title>
+</head>
+<style>
+    *{
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        text-align: center;
+    }
+    table {
+    margin-left:auto; 
+    margin-right:auto;
+    width:60%;
+  }
+</style>
+<body>
+    <h1>This is a data Entry Table</h1>
+    <p>Please enter ur details here</p>
+    <input id="name" type="text" placeholder="Name">
+    <input  id="age" type="number" placeholder="Age">
+    <input  id="email" type="email" placeholder="Email">
+    <button  id= 'push'>push</button>
+    <button  id= 'clear'>Clear Table</button>
+    <button  id= 'unshift'>unshift</button>
+    <br><br><br>
+    <table border="5">
+        <thead style="color: blueviolet;">
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Email</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+        
+    </table>
+    <script src="Hw1.js"></script>
+</body>
+</html>
